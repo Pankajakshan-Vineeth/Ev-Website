@@ -5,6 +5,7 @@ import image2 from "../../Assets/image2.png";
 import image3 from "../../Assets/image3.png";
 
 const Background = ({ playStatus, heroCount }) => {
+  
   if (playStatus) {
     return (
       <video className="background" autoPlay loop muted>

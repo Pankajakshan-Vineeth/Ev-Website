@@ -1,12 +1,17 @@
-import React from 'react'
-import './NavBar.css'
+import './Navbar.css'
 
-const NavBar = () => {
+const Navbar = () => {
   return (
-    <div>
-      
+    <div className='nav'>
+      <div className="nav-logo">EV-olution</div>
+      <ul className="nav-menu">
+        <li>Home</li>
+        <li>Explore</li>
+        <li>About</li>
+        <li className='nav-contact'>Contact</li>
+      </ul>
     </div>
   )
 }
 
-export default NavBar
+export default Navbar

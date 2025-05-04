@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Background from './Components/Background/Backgroound'; // fix typo if needed
+import Navbar from './Components/NavBar/NavBar';
 
 const heroData = [
   { text1: "Dive into", text2: "what you love" },
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <div>
       <Background heroCount={heroCount} playStatus={playStatus} />
+      <Navbar/>
     </div>
   );
 };
