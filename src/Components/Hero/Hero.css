@@ -46,3 +46,16 @@
     border-radius: 7.5px;
     cursor: pointer;
   }
+  .hero-dot.orange {
+    background: orangered;
+  }
+  
+  .hero-play {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .hero-play p{
+    color: #FFF;
+    font-size: 19px;
+  }
